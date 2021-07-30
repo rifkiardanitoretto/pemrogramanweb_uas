@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+body {
+  background-color: #f3f1f1;
+}
+nav {
+  background-color: #f9f3f3;
+}
+.navmain {
+  font-family: "Roboto", sans-serif;
+}
+ul li a {
+  color: #1a759f;
+}
+
+.hero {
+  background: url("../img/Hero.jpg");
+  background-size: cover;
+  height: 800x;
+  margin-top: -100px;
+  /*color: white;*/
+}
+
+.content {
+  color: #f9f3f3;
+  padding: 50vh;
+}
+.content h1 {
+  font-size: 60px;
+}
+.content h4 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content a {
+  width: 150px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.abotkonten {
+  padding: 10vh 0;
+}
+.abotkonten .judul h3 {
+  color: #1a759f;
+}
+
+.list-produk {
+  background-color: #ecefec;
+  padding: 50px;
+}
+.list-produk .card {
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.list-produk .card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(3, 32, 82, 0.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.footer {
+  background-color: #000000;
+  /*background-image: url('');*/
+  height: 300px;
+}
+
+.copyright {
+  height: 50px;
+}
+.copyright label {
+  padding: 3vh;
+}
+
+/* loginpage */
+.btn-auth {
+  width: 100px;
+}
